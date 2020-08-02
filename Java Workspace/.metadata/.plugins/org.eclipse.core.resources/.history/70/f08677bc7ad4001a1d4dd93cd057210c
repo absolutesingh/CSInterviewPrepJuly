@@ -1,0 +1,80 @@
+package priorityQueueAndHeaps;
+class MaxHeap
+{
+	final int capacity = 10; //Size of array
+	int arr[] = new int[capacity];
+	int size = 0; //number of items at any particular time
+	//Functions to get indexes
+	int getParentIndex(int i)
+	{
+		return (i-1)/2;
+	}
+	int getLeftChildIndex(int i)
+	{
+		return 2*i+1;
+	}
+	int getRightChildIndex(int i)
+	{
+		return 2*i+2;
+	}
+	//Function to get Value of Parent/Children
+	int parent(int i)
+	{
+		return arr[getParentIndex(i)];
+	}
+	int leftChild(int i)
+	{
+		return arr[getLeftChildIndex(i)];
+	}
+	int rightChild(int i)
+	{
+		return arr[getRightChildIndex(i)];
+	}
+	//Check if the parent/children exist
+	boolean hasParent(int i)
+	{
+		return getParentIndex(i)>=0;
+	}
+	boolean hasLeftChild(int i)
+	{
+		return getLeftChildIndex(i)<size;
+	}
+	boolean hasRightChild(int i)
+	{
+		return getRightChildIndex(i)<size;
+	}
+	int peek()
+	{
+		if(size==0)
+		{
+			System.out.println("Nothing in Heap");
+			return -1;
+		}
+		return arr[0];
+	}
+	//Insertion in heap
+	void add(int data)
+	{
+		arr[size] = data;
+		size++;
+		heapifyUp();
+	}
+	void heapifyUp()
+	{
+		int index = size - 1;
+		while(hasParent(index) && parent(index)<arr[index])
+		{
+			swap(getParentIndex(index),index);
+			index = getParentIndex(index);
+			
+		}
+	}
+}
+public class maxHeapImp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

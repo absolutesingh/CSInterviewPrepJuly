@@ -8,7 +8,6 @@ public class UsingInbuiltClass {
 		//By default this gives us Min-Priority Queue
 		
 		//Task - 1 -> How to get Max-Priority Queue using this class.
-		//Use Collections.reverseOrder() inside the round brackets to use Max-Priority Queue
 		System.out.println(pq.isEmpty());
 		pq.add(3);
 		pq.add(4);
