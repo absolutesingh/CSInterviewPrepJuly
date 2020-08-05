@@ -1,0 +1,12 @@
+H.W. 
+	A. Practice all the Class Questions - Heap + Priority Queue
+	B. Complete all these questions on GFG & Hackerrank.
+	C. IsoMorphic
+	D. Linked List implementation of Queue
+	E. Array Not Sorted Case of Priority Queue
+	F. Make a Min Heap and complete all functions in ADT and push to GitHub.
+	G. Create Heap from a Given Array
+	H. Heap Sort
+	I. Complete all Array and Linked List Question from Problem Solving in HackerRank
+	J. Left View, Right View of a Binary Tree
+	K. Top View, Bottom View of a Binary Tree (https://www.hackerrank.com/challenges/tree-top-view/problem)

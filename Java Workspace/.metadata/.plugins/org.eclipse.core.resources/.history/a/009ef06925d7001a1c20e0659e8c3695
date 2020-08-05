@@ -1,0 +1,17 @@
+package graphs;
+import java.util.*;
+class Graph
+{
+	int v = 5;//No of vertices
+//	int arr[] = new int[5];
+	LinkedList<Integer> arr[] = new LinkedList[v];
+	
+}
+public class GraphLL {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
