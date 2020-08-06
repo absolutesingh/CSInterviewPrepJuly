@@ -1,4 +1,4 @@
-//Adjacency List Implementation using SM
+//Adjacency List Implementation using LL
 package graphs;
 import java.util.*;
 class GraphImp

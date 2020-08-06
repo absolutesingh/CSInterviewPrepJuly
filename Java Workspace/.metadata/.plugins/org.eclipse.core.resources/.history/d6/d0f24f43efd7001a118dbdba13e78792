@@ -1,4 +1,3 @@
-//Adjacency List Implementation using LL
 package graphs;
 import java.util.*;
 class Graph
@@ -80,17 +79,14 @@ class Graph
 	{
 		System.out.println("-------DFS Overall-------");
 		boolean visited[] = new boolean[v];
-		int count=0;
 		for(int i=0;i<v;i++)
 		{
-			if(!visited[i]) //If not Visited
+			if(!visited[i])
 			{
-				count++; //Whenever new component found
 				DFSUtil(i,visited);
 				System.out.println();
 			}
 		}
-		System.out.println("Total Components are: "+count);
 	}
 }
 public class GraphLL {
@@ -107,7 +103,7 @@ public class GraphLL {
 		g.addEdge(2, 3);
 		g.addEdge(2, 4);
 		g.addEdge(3, 4);
-		g.addEdge(5, 6); //Second Component
+		g.addEdge(5, 6);
 		g.print();
 		g.BFS(0); //Start from 0
 		g.BFS(1);

@@ -1,4 +1,3 @@
-//Adjacency List Implementation using LL
 package graphs;
 import java.util.*;
 class Graph
@@ -18,7 +17,7 @@ class Graph
 	void addEdge(int start, int end)
 	{
 		arr[start].add(end);//Edge Created
-		arr[end].add(start); //If we want un/bidirectional Graph
+//		arr[end].add(start); //If we want un/bidirectional Graph
 	}
 	
 	void print()
@@ -75,39 +74,19 @@ class Graph
 			}
 		}
 	}
-	
-	void DFSOverall()
-	{
-		System.out.println("-------DFS Overall-------");
-		boolean visited[] = new boolean[v];
-		int count=0;
-		for(int i=0;i<v;i++)
-		{
-			if(!visited[i]) //If not Visited
-			{
-				count++; //Whenever new component found
-				DFSUtil(i,visited);
-				System.out.println();
-			}
-		}
-		System.out.println("Total Components are: "+count);
-	}
 }
 public class GraphLL {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Graph g = new Graph(7);
+		Graph g = new Graph(5);
 		g.addEdge(0, 1);
-//		g.addEdge(0, 1); //Duplicate neighbor problem
+		g.addEdge(0, 1); //Duplicate neighbor problem
 		g.addEdge(0, 2);
-//		g.addEdge(0, 3);
+		g.addEdge(0, 3);
 		g.addEdge(1, 3);
-		g.addEdge(1, 2);
-		g.addEdge(2, 3);
 		g.addEdge(2, 4);
 		g.addEdge(3, 4);
-		g.addEdge(5, 6); //Second Component
 		g.print();
 		g.BFS(0); //Start from 0
 		g.BFS(1);
@@ -115,7 +94,6 @@ public class GraphLL {
 		g.BFS(3);
 		g.BFS(4);
 		g.DFS(0);
-		g.DFSOverall();
 	}
 
 }
