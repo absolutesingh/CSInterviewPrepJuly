@@ -67,7 +67,7 @@ public class GraphAlgos {
 			{
 				if(adjMatrix[minVertex][j]!=0 && !visited[j])//Not Zero means neighbor
 				{
-					if(adjMatrix[minVertex][j]<distance[j])
+					if(adjMatrix[minVertex][j]<=distance[j])
 					{
 						distance[j] = adjMatrix[minVertex][j];
 						//If we're inside this, means minVertex is Parent of J.

@@ -52,13 +52,11 @@ public class GraphAlgos {
 		int v = adjMatrix.length; //No of vertices
 		boolean visited[] = new boolean[v];
 		int distance[] = new int[v];
-		int parent[] = new int[v];
 		for(int i=0;i<v;i++)
 		{
 			distance[i] = Integer.MAX_VALUE;
 		}
 		distance[source] = 0;
-		parent[source] = -1;
 		for(int i=0;i<v-1;i++)
 		{
 			int minVertex = findMinVertex(distance,visited); //Pick the minimum unvisited vertex
@@ -70,8 +68,6 @@ public class GraphAlgos {
 					if(adjMatrix[minVertex][j]<distance[j])
 					{
 						distance[j] = adjMatrix[minVertex][j];
-						//If we're inside this, means minVertex is Parent of J.
-						parent[j] = minVertex;
 					}
 				}
 			}
@@ -82,10 +78,6 @@ public class GraphAlgos {
 			mstWeight+=distance[i];
 		}
 		System.out.println("Weight of MST is: "+ mstWeight);
-		for(int i=0;i<v;i++)
-		{
-			System.out.println("Parent of "+i+" is: "+parent[i]);
-		}
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,0 +1,8 @@
+H.W. 
+	A. Revise complete Graph.
+	B. Complete all these questions on GFG & Hackerrank
+	C. Island Problem from GFG
+	D. Implement Dijkstras, Prims by yourself.
+	E. Detect Cycle in undirected & directed graphs - Do on GFG 
+		1. https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
+		2. https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
