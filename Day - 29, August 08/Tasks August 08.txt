@@ -1,0 +1,5 @@
+H.W. 
+	A. Revise complete DP.
+	B. Always follow R->M->T.
+	C. https://www.geeksforgeeks.org/count-ways-reach-nth-stair-using-step-1-2-3/
+	D. https://www.geeksforgeeks.org/edit-distance-dp-5/
