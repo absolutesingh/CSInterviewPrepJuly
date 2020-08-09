@@ -1,0 +1,14 @@
+package doubts;
+
+public class AnotherPalindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s1 = "ab?a";
+		String s2 = "ab??c";
+		System.out.println(checkPalindrome(s1));
+		System.out.println(checkPalindrome(s2));
+		
+	}
+
+}

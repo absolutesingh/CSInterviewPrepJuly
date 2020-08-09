@@ -1,0 +1,11 @@
+H.W. 
+	A. Revise complete DP.
+	B. Always follow R->M->T.
+	C. https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/
+	D. https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/
+	E. https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/
+	F. Merge Sort Implementation( Reference -> https://www.geeksforgeeks.org/merge-sort/ )
+	H. https://www.javatpoint.com/Comparable-interface-in-collection-framework
+	I. https://www.javatpoint.com/Comparator-interface-in-collection-framework
+	J. https://www.javatpoint.com/difference-between-comparable-and-comparator
+	K. Dynamic Programming Reference -> https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/
