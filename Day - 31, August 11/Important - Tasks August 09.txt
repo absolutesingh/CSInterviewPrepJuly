@@ -1,0 +1,6 @@
+H.W. 
+	A. Revise complete DP.
+	B. Always follow R->M->T.
+	C. https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/
+	D. Merge Sort Implementation( Reference -> https://www.geeksforgeeks.org/merge-sort/ )
+	E. https://www.geeksforgeeks.org/count-number-ways-reach-destination-maze/
