@@ -1,0 +1,17 @@
+package dp;
+
+public class Maze {
+	static int findMazePath(int sr,int sc,int dr, int dc)
+	{
+		if(sr==dr && sc==dc)
+		{
+			return 1; //path found
+		}
+		if(sr>dr || sc>dc) return 0; //Path cannot be found/Out of array
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(findMazePath(0,0,2,2));
+	}
+
+}

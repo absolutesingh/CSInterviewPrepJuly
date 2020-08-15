@@ -1,0 +1,20 @@
+package exceptions;
+class InvalidAgeException extends Exception //user defined exception
+{
+	InvalidAgeException(String str) //Message
+	{
+		super(str);
+	}
+	public String toString()//Overridding toString Function
+	{
+		return (getClass().getName()+": *"+getMessage()+"*");
+	}
+}
+public class UserDefinedException {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
